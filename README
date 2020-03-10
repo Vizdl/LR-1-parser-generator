@@ -1,0 +1,13 @@
+这是一个LR(1)语法分析器生成器
+简要而言 : LR(1)语法分析器生成器的主要功能就是, 将任意符合LR(1)语法的BNF范式定义,都可以使用这个生成器生成对应Action表与Goto表。
+而生成的Action表与Goto表则可以用于支持LR(1)语法分析工作。依赖这两张表可以自底向上地合成语法分析树。
+
+项目输入为 : LR(1)语法BNF范式
+项目输出为 : 由对应 LR(1)语法BNF范式 编译而成的 Action,Goto表。
+
+关于其介绍请转接到我的个人博客(共两篇) ： 
+https://www.cnblogs.com/vizdl/p/11289119.html
+https://www.cnblogs.com/vizdl/p/11331278.html
+
+
+在README所在目录相对路径下 : .\src\cn\vizdl\LR1\version3\ 对应源码上存在一些对其功能上的解释。
